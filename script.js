@@ -38,7 +38,7 @@ menu_desk_proyectos.addEventListener("click", desplegar_submenu_desk);
 
 
 //BARRAS DE LENGUAJES EN encriptador.html y ahorcado.html
-if (location.pathname == '/encriptador.html') {
+if (location.pathname == '/portfolio/encriptador.html') {
     window.onload = html_barra(), css_barra(), js_barra();
     function html_barra() {
         let html_porcentaje = document.querySelector(".encriptador-html-porcentaje");
@@ -94,7 +94,7 @@ if (location.pathname == '/encriptador.html') {
 }
 
 
-if (location.pathname == '/ahorcado.html') {
+if (location.pathname == '/portfolio/ahorcado.html') {
     window.onload = html_barra(), css_barra(), js_barra();
     function html_barra() {
         let html_porcentaje = document.querySelector(".ahorcado-html-porcentaje");
