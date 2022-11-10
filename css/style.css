@@ -28,6 +28,7 @@ nav {
     position: fixed;
     box-shadow: 0 0 1em var(--color-contraste);
     transition: box-shadow 2s;
+    z-index: 9;
 }
 
 .nav-container {
@@ -647,6 +648,10 @@ footer .redes-sociales-icono:hover {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    .detalles-lenguajes{
+        flex-direction: column-reverse;
     }
 
     .swiper img {
