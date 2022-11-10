@@ -9,7 +9,6 @@
     --css: #4169E1;
     --javascript: #FFFF00;
     --facebook: #4267B2;
-    --whatsapp: #25D366;
     --linkedin: #0072B1;
     --github: #777777;
 }
@@ -256,7 +255,6 @@ footer img {
 }
 
 #facebook,
-#whatsapp,
 #linkedin,
 #github {
     fill: var(--blanco);
@@ -268,10 +266,6 @@ footer .redes-sociales-icono:hover {
 
 #facebook:hover {
     fill: var(--facebook);
-}
-
-#whatsapp:hover {
-    fill: var(--whatsapp);
 }
 
 #linkedin:hover {
